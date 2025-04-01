@@ -1,0 +1,12 @@
+.container__menu-bar > ul {
+  display: flex;
+  color: white;
+  gap: 50px;
+  list-style: none;
+}
+.container__menu-bar {
+  margin-top: 15px;
+}
+ul > li:hover {
+  transform: translateX(10px);
+}
