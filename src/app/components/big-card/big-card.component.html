@@ -4,15 +4,12 @@
   </div>
   <div class="big-card__title">
     <h1>
-      <a href="#">{{ cardTitle }}</a>
+      <a [routerLink]="['content', id]">{{ cardTitle }}</a>
     </h1>
   </div>
   <div class="big-card__description">
     <p>
-      Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ipsum harum quo,
-      voluptatibus consectetur ducimus facilis officiis repellendus mollitia
-      labore odit quam eius explicabo accusantium, deserunt nesciunt impedit
-      nihil dolores eligendi?
+      <a [routerLink]="['content', id]"></a>
     </p>
   </div>
 </div>

@@ -1,1 +1,13 @@
-<div class="Container__content"></div>
+<div class="Container__content">
+  <div classe="content__cover">
+    <img src="{{ photoCover }}" alt="" />
+  </div>
+  <div classe="content__title">
+    <h1>{{ contentTitle }}</h1>
+    <hr />
+  </div>
+  <div classe="content__descripition">
+    <a [routerLink]="['']"><< VOLTAR</a>
+    <p>{{ contentDescripition }}</p>
+  </div>
+</div>
